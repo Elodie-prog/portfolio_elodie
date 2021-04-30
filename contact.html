@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Your Contact</title>
+	<link href="contact.css" rel="stylesheet" >
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;900&display=swap" rel="stylesheet">
+<body>
+	<div class="wrapper">
+	
+		<section>
+			<h1>Your contact</h1>
+			<p>Fill out the form below</p>
+			<form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+				<fieldset>
+					<legend>Your contact information</legend>
+					<label for="name">Your name </label>
+					<input type="text" id="name" name="name" placeholder="Your Name">
+					<label for="phone">Phone number</label>
+					<input type="tel" id="phone" name="phone" placeholder="Don't forget the area code!">
+					<label for="email">Email</label>
+					<input type="email" id="email" placeholder="email@address.com" name="email">
+					<input type="text" name="message" placeholder="Write your message here" required>
+
+				</fieldset>
+				
+		</section>
+		
+		<aside>
+			<img src="./images/signhere.jpg" alt="signhere">
+			
+		</aside>
+	</div>
+	<script src="js/forms.js"></script>
+</body>
+<div class="return">
+	<a href='./index.html' style="color:grey"> 👈🏻 Return to Home page </a>
+</div>
+</html>
