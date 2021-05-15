@@ -97,8 +97,8 @@ body {
     background-color: grey;
   }
   .button:active {
-    background-color: yellow;
-    color: blue;
+    background-color: #791731;
+    color: #056286;
   }
   .socials {
     padding-bottom: 200px;
@@ -216,7 +216,7 @@ body {
     display: none;
   }
   .scrollToTopBtn {
-    position: fixed;
+   position: fixed;
    bottom: 80px;
    right: 40px;
    z-index: 9999;
@@ -229,6 +229,7 @@ body {
    cursor: pointer;
    border-radius: 2px;
    display: none;
+}
   }
   .scrollToTopBtn-show {
     display: block;
