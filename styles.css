@@ -1,6 +1,11 @@
 body {
-  font-family: 'Poppins', sans-serif;
-  }
+  font-family: 'Caveat', cursive;
+  background-color:rgb(230, 199, 153);
+  text-align: left;
+  color: white;
+}
+* { color: white; text-decoration: none;}
+}
   section {
     background-color: rgb(186, 178, 178);   
   }
@@ -235,6 +240,7 @@ body {
     display: block;
   }
   .stack {
-    display: inline-block;
+    display: inline-flex;
+    
   }
-  }
+  
