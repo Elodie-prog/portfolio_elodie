@@ -4,11 +4,11 @@ body {
   text-align: left;
   color: white;
 }
-* { color: white; text-decoration: none;}
+* {color: white; text-decoration: none;};
+
+section {
+  background-color: rgb(186, 178, 178);   
 }
-  section {
-    background-color: rgb(186, 178, 178);   
-  }
   .hero {
     background-image: url(./images/picturecoding.jpg);
     width: 100%;
@@ -91,7 +91,7 @@ body {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #b11f4d;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -110,7 +110,7 @@ body {
     margin: 30px;
   }
   .social:hover {
-    background-color: coral;
+    background-color: #b11f4d;
   }
   .sub-section {
     display: flex;
