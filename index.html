@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/9ab2fbf1d5.js" crossorigin="anonymous"></script>
 <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
 </head>
@@ -62,25 +63,19 @@
         <h2>Project</h2>
         <div class="project-container">
             <div class="project-card">
-                <img class="project-image" src="./images/proud.svg" atl="proud" onclick="myFunction(this);"/>
-                <p class="chocolatepage"><a class="project-link" href="./images/chocolatepage.png" alt="chocolate page" onlick="myFunction(this);">View Chocolate Page</a></p>
-                <span onclick='this.parentElement.style.display=none' class='closebtn'>&times;</span>
-                <img id="expandedImg" style="width:100%">
+                <img class="project-image" src="./images/proud.svg" atl="proud"/>
+                <p class="chocolatepage"><a class="project-link" href="./images/chocolatepage.png" alt="chocolate page">View Chocolate Page</a></p>
                 
             </div>
             <div class="project-card">
-                <img class="project-image" src="./images/workinprogress.svg" alt="workinprogress" onclick="myFunction(this);"/>
-                <p class="subtext"><a class="project-link" href="/Users/elodiepacheco/Documents/roger_web/index.html">View Chef Roger Website</a></p>
-                <span onclick='this.parentElement.style.display=none' class='closebtn'>&times;</span>
-                <img id="expandedImg" style="width:100%">
+                <img class="project-image" src="./images/workinprogress.svg" alt="workinprogress"/>
+                <p class="subtext"><a target="_blank" class="project-image" href="./roger_web/index.html">View Chef Roger Website</a></p>
             </div>
 
             <div class="project-card">
-                <img class="project-image" src="./images/mobiledevelopment.svg" alt="mobiledevelopment" onclick="myFunction(this);" />
+                <img class="project-image" src="./images/mobiledevelopment.svg" alt="mobiledevelopment"/>
                 <h6></h6>
                 <p class="workinprogress"><a class="project-link" href="./images/workin progress.jpg">Work in Progress</a></p>
-                <span onclick='this.parentElement.style.display=none' class='closebtn'>&times;</span>
-                <img id="expandedImg" style="width:100%">
             </div>
         </div>
             <div class="stack">
@@ -114,7 +109,11 @@
     <button class="scrollToTopBtn">☝🏻Back to Top☝🏻</button>
 
     <script src="./app.js"></script>
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+      $(".project-link").magnificPopup({ type: "image" });
+    </script>
 </body>
 </html>
 
